@@ -29,33 +29,34 @@ Thousands of citizens—elderly, widows, and persons with disabilities—rely on
 
 
 
-🔍 Key Technologies
+## 🔍 Key Technologies
 
---Languages: Python
+- **Languages:** Python  
+- **Libraries:** pandas, NumPy, scikit-learn, seaborn, matplotlib  
+- **Tools:** Jupyter Notebook, IBM Watson Studio, AutoAI  
+- **Cloud Services:** IBM Cloud Object Storage, Watson Machine Learning  
 
---Libraries: pandas, NumPy, scikit-learn, seaborn, matplotlib
+---
 
---Tools: Jupyter Notebook, IBM Watson Studio, AutoAI
+## 🚀 How to Use This Project
 
---Cloud Services: IBM Cloud Object Storage, Watson Machine Learning
-
- How to Use This Project
-🖥️ Locally
+### 🖥️ Locally
 
 git clone https://github.com/your-username/nsap-scheme-eligibility.git
 cd nsap-scheme-eligibility
 pip install -r requirements.txt
 jupyter notebook
-Run the notebook NSAP_Prediction.ipynb and follow along.
 
-🌐 On IBM Cloud
---Upload dataset to IBM Cloud Object Storage
 
---Use Watson Studio / AutoAI to train and deploy the model
 
---Consume model via REST API for real-time predictions
+###🌐 On IBM Cloud
+Upload dataset to IBM Cloud Object Storage
 
-📈 Results at a Glance
+Use Watson Studio / AutoAI to train and deploy the model
+
+Consume model via REST API for real-time predictions
+
+###📈 Results at a Glance
 Model Used: Random Forest Classifier
 
 Accuracy: ~96% on test set
@@ -64,14 +65,14 @@ Evaluation: Confusion Matrix, Classification Report, Feature Importance
 
 Deployment: REST API hosted on IBM Cloud (AutoAI / WML)
 
-💡 Insights Gained
+###💡 Insights Gained
 Feature importance revealed that Aadhaar linkage and gender/caste composition strongly affect scheme classification.
 
 The use of AutoAI greatly accelerated model tuning and deployment.
 
 This approach can be scaled to predict eligibility across other welfare schemes as well.
 
-🛤️ Future Enhancements
+###🛤️ Future Enhancements
 Build a secure web interface for government officers.
 
 Integrate real-time applicant form input.
@@ -80,7 +81,7 @@ Explore advanced models like XGBoost or Neural Networks.
 
 Expand coverage to additional districts and schemes.
 
-#Screenshot
+###Screenshot
 <img width="1909" height="883" alt="Screenshot 2025-07-27 183356" src="https://github.com/user-attachments/assets/6dde1737-2cdc-4357-a846-4162f7b7791f" />
 <img width="1917" height="878" alt="Screenshot 2025-07-27 183421" src="https://github.com/user-attachments/assets/3333d708-eb34-450a-8393-69bf02b036a7" />
 <img width="1913" height="730" alt="Screenshot 2025-07-27 183442" src="https://github.com/user-attachments/assets/83acc167-6e1e-439d-9129-a25a96751a85" />
@@ -89,13 +90,13 @@ Expand coverage to additional districts and schemes.
 
 
 
-👩‍💻 Author
+###👩‍💻 Author
 Kritika Pandey
 Final Year B.Tech IT Student
 Rajkiya Engineering College, Azamgarh
 Aspiring Full-Stack & ML Developer | Government Tech Enthusiast
 
-📌 Final Thought
+###📌 Final Thought
 “Building solutions that touch lives is more than coding—it’s a contribution to society.”
 
 If this project inspired you or helped you, give it a ⭐ and feel free to connect with me.
