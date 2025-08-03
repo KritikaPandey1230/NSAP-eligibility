@@ -43,8 +43,11 @@ Thousands of citizens—elderly, widows, and persons with disabilities—rely on
 ### 🖥️ Locally
 
 -git clone https://github.com/your-username/nsap-scheme-eligibility.git
+
 -cd nsap-scheme-eligibility
+
 -pip install -r requirements.txt
+
 -jupyter notebook
 
 ---
