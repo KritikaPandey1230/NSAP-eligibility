@@ -49,37 +49,77 @@ jupyter notebook
 
 
 
-###🌐 On IBM Cloud
-Upload dataset to IBM Cloud Object Storage
+#### 🌐 On IBM Cloud
+- Upload the dataset to **IBM Cloud Object Storage (COS)**.  
+- Use **IBM Watson Studio AutoAI** to automatically build, test, and select the best model pipeline.  
+- Alternatively, run the Jupyter notebook in **Watson Studio Notebook environment** for manual model development.  
+- Deploy the final model using **Watson Machine Learning (WML)** as a REST API.  
+- Test predictions using a Python `requests` script or directly via the IBM Cloud interface.
 
-Use Watson Studio / AutoAI to train and deploy the model
+---
 
-Consume model via REST API for real-time predictions
+## 📈 Results at a Glance
 
-###📈 Results at a Glance
-Model Used: Random Forest Classifier
+- **Model Used:** Random Forest Classifier  
+- **Accuracy:** ~96% on test dataset  
+- **Evaluation Metrics:**  
+  - Classification Report  
+  - Confusion Matrix  
+  - Feature Importance Chart  
+- **Deployment:**  
+  - REST API endpoint generated via Watson Machine Learning  
+  - Model available for real-time predictions with proper input formatting
 
-Accuracy: ~96% on test set
+---
 
-Evaluation: Confusion Matrix, Classification Report, Feature Importance
+## 💡 Insights Gained
 
-Deployment: REST API hosted on IBM Cloud (AutoAI / WML)
+- **Aadhaar linkage** and **mobile number presence** are strong indicators of scheme classification.  
+- Model performs reliably across various districts and scheme codes.  
+- AutoAI enabled rapid model building, evaluation, and version tracking with minimal manual tuning.  
+- Combining domain data with ML makes government scheme delivery more efficient.
 
-###💡 Insights Gained
-Feature importance revealed that Aadhaar linkage and gender/caste composition strongly affect scheme classification.
+---
 
-The use of AutoAI greatly accelerated model tuning and deployment.
+## 🛤️ Future Enhancements
 
-This approach can be scaled to predict eligibility across other welfare schemes as well.
+- Enable real-time form inputs through a web dashboard.  
+- Use advanced models like Gradient Boosting or XGBoost for improved accuracy.  
+- Integrate APIs with mobile apps for field-level access by officials.  
+- Scale the system to other government schemes and additional states.  
+- Explore Edge AI for low-connectivity rural areas.
 
-###🛤️ Future Enhancements
-Build a secure web interface for government officers.
+---
 
-Integrate real-time applicant form input.
+## 📚 References
 
-Explore advanced models like XGBoost or Neural Networks.
+- [AI Kosh NSAP Dataset](https://aikosh.indiaai.gov.in)  
+- [NSAP Official Portal](https://nsap.nic.in)  
+- [Scikit-learn Documentation](https://scikit-learn.org)  
+- [IBM Watson Studio](https://www.ibm.com/cloud/watson-studio)  
+- [Watson Machine Learning](https://www.ibm.com/cloud/machine-learning)
 
-Expand coverage to additional districts and schemes.
+---
+
+## 👩‍💻 Author
+
+**Kritika Pandey**  
+Final Year B.Tech IT Student  
+Rajkiya Engineering College, Azamgarh  
+Aspirant | Full Stack Developer | ML Enthusiast  
+
+---
+
+
+
+## 📌 Final Thought
+
+> “Machine learning isn’t just about accuracy — it’s about impact. When used for social good, even a line of code can change lives.”
+
+If this project helped or inspired you, please ⭐ star the repo and share your feedback.  
+Let's build tech that matters. 💙
+
+---
 
 ###Screenshot
 <img width="1909" height="883" alt="Screenshot 2025-07-27 183356" src="https://github.com/user-attachments/assets/6dde1737-2cdc-4357-a846-4162f7b7791f" />
@@ -87,24 +127,6 @@ Expand coverage to additional districts and schemes.
 <img width="1913" height="730" alt="Screenshot 2025-07-27 183442" src="https://github.com/user-attachments/assets/83acc167-6e1e-439d-9129-a25a96751a85" />
 <img width="1913" height="730" alt="Screenshot 2025-07-27 183442" src="https://github.com/user-attachments/assets/87e6ff8c-bef1-4686-9012-2e84c8a2c3c1" />
 <img width="1915" height="879" alt="Screenshot 2025-07-27 183512" src="https://github.com/user-attachments/assets/1e9a59c6-7630-4841-b1c5-a058a13fc11b" />
-
-
-
-###👩‍💻 Author
-Kritika Pandey
-Final Year B.Tech IT Student
-Rajkiya Engineering College, Azamgarh
-Aspiring Full-Stack & ML Developer | Government Tech Enthusiast
-
-###📌 Final Thought
-“Building solutions that touch lives is more than coding—it’s a contribution to society.”
-
-If this project inspired you or helped you, give it a ⭐ and feel free to connect with me.
-
-
-
-
-
 
 
 
